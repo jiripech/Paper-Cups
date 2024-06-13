@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #2a3030;
+    font-family: sans-serif;
+}
+h2 {
+    font-size: 38px;
+    font-weight: 400;
+}
+h3 {
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: center;
+}
+.button {
+    padding: 15px 35px;
+    border-radius: 4px;
+    box-shadow: 0 4px 0 0 #e0e0e0;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    color: #2a3030;
+    background-color:white;
+/*
+    border: 2px solid darkgreen;
+
+*/
+}
+.about-link {
+    text-decoration: none;
+    color: #ffcc33;
+}
+.button-price {
+    margin-right: 8px;
+    font-size: 20px;
+}
+.welcome {
+    background-color: #ffcc33;
+}
+.welcome-title {
+    margin-bottom: 10px;
+    font-size: 70px;
+    font-weight: 300;
+}
+.welcome-subtitle {
+    margin-bottom: 20px;
+    font-size: 30px
+}
+.welcome-text {
+    margin-bottom: 40px;
+}
+.welcome-image {
+    margin-top: 40px;
+}
+.about-text {
+    margin-top: 60px;
+}
+.product {
+    display: flex;
+    justify-content: center;
+}
+.product-first-column, .product-second-column {
+    width: 50%;
+}
+.product-first-column {
+    padding-top: 30px;
+    background-color: #63d0ee;
+}
+.product-second-column{
+    padding: 60px;
+    background-color: #ffcc33;
+}
+.product-title{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.product-list{
+    margin-bottom: 40px;
+    line-height: 24px;
+}
+.requirements {
+    background-color: #e1e4e4;
+}
+.requirements-image {
+    margin-top: 60px;
+}
+.features-columns {
+    margin-top: 60px;
+}
+.features-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding: 20px;
+}
+.features-column > p {
+    text-align: justify;
+}
+.features-column-image {
+    margin-bottom: 15px;
+    border-radius: 100%;
+    border: 5px solid #ffcc33;
+}
+.features-column-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.footer {
+    background-color:#2a3030;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-text {
+    padding-bottom: 25px;
+    margin: 0 auto;
+    color: white
+}
+.footer-icons {
+    margin: 2px auto;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.features-columns {
+    display: flex;
+    justify-content: space-between;
+}
